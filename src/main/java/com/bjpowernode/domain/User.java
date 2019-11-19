@@ -13,6 +13,7 @@ public class User {
     private String name;
     private String address;
     private String gender;
+    private String phone;
 
     public int getId() {
         return id;
@@ -28,6 +29,13 @@ public class User {
 
     public void setGender(String gender) {
         this.gender = gender;
+    }
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public String getName() {
