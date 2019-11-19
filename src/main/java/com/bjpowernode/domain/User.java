@@ -1,0 +1,30 @@
+package com.bjpowernode.domain;
+
+/**
+ * ClassName:User
+ * Package:com.bjpowernode.domain
+ * Description
+ *
+ * @date:2019/11/19 20:15
+ * @author:lsz
+ */
+public class User {
+    private String name;
+    private String address;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+}
