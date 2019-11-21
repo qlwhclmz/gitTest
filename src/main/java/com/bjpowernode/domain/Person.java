@@ -32,7 +32,10 @@ public class Person {
     public void setAge(int age) {
         this.age = age;
     }
-    
+
+    public Person(String address) {
+        this.address = address;
+    }
 
     public void setAddress(String address) {
         this.address = address;
