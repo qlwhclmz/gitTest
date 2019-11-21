@@ -11,6 +11,7 @@ package com.bjpowernode.domain;
 public class Person {
     private int id;
     private int age;
+    private String address;
 
     public int getId() {
         return id;
