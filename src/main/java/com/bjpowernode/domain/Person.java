@@ -16,4 +16,8 @@ public class Person {
     public int getId() {
         return id;
     }
+
+    public String getAddress() {
+        return address;
+    }
 }
