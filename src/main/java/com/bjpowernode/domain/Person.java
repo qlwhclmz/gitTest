@@ -17,6 +17,10 @@ public class Person {
         return id;
     }
 
+    public int getAge() {
+        return age;
+    }
+
     public String getAddress() {
         return address;
     }
