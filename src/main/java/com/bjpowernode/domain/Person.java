@@ -28,4 +28,8 @@ public class Person {
     public void setId(int id) {
         this.id = id;
     }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 }
