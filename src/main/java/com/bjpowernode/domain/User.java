@@ -12,6 +12,7 @@ public class User {
     private int id;
     private String name;
     private String address;
+    private String gender;
     private String phone;
 
     public int getId() {
@@ -22,6 +23,13 @@ public class User {
         this.id = id;
     }
 
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
     public String getPhone() {
         return phone;
     }
