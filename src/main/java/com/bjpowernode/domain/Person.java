@@ -24,4 +24,8 @@ public class Person {
     public String getAddress() {
         return address;
     }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }
